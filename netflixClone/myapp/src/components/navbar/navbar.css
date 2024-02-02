@@ -1,0 +1,102 @@
+.container-navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.after-scroll {
+  background-color: #111;
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.netflix-logo {
+  width: 120px;
+  object-fit: contain;
+}
+
+.links {
+  font-size: 15px;
+  margin-left: 30px;
+
+}
+
+.search-input {
+  background: none;
+  border: 1px solid #cc0000;
+  color: white;
+  outline: none;
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 15px;
+  width: 250px;
+  height: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+  position: relative;
+}
+
+.search-values {
+  background: #232323;
+  width: 265px;
+  border-radius: 5px;
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+li{
+color: rgb(185, 185, 185);
+}
+
+li:hover{
+  color: white;
+}
+
+.search-values ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.search-values ul li {
+  margin: 10px;
+}
+
+.search-values a {
+  text-decoration: none;
+}
+
+
+@media(max-width: 640px) {
+
+  .inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 8px;
+  }
+
+  .netflix-logo {
+    width: 100px;
+    object-fit: contain;
+  }
+}
