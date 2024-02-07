@@ -33,11 +33,11 @@ export default function HomePage() {
         {/* Rest of the tiles */}
         <TilesRow title="Top Rated" requestUrl={requests.fetchTopRated} />
         <TilesRow title="Popular Now" requestUrl={requests.fetchPopular} />
-        <TilesRow title="TV Shows" requestUrl={requests.fetchTVShows} />
         <TilesRow title="Comedies" requestUrl={requests.fetchComedy} />
         <TilesRow title="Action Movies" requestUrl={requests.fetchAction} />
         <TilesRow title="Thriller Movies" requestUrl={requests.fetchDocumentaries} />
         <TilesRow title="Horror Movies" requestUrl={requests.fetchHorror} />
+        <TilesRow title="TV Shows" requestUrl={requests.fetchTVShows} />
       </div>
     </div>
   )

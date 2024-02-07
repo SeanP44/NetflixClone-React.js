@@ -23,7 +23,6 @@ export default function TilesRow({ title, requestUrl, topRow }) {
             const response = await axios.get(requestUrl);
             setMovies(response.data.results);
 
-            console.log(response.data.results)
         };
         getMovies();
     }, [requestUrl]);
