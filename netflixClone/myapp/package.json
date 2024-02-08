@@ -2,6 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://seanp44.github.io/",
   "dependencies": {
     "@itseasy21/react-elastic-carousel": "^0.12.3",
     "@testing-library/jest-dom": "^5.17.0",
